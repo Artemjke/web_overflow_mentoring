@@ -8,55 +8,15 @@ h1 {
 	color: #333;
 }
 
-.input-container {
-	margin: 20px;
-}
-
-label {
-	font-weight: bold;
-}
-
-input[type="number"] {
-	padding: 5px;
-}
-
-button {
-	padding: 5px 10px;
-	background-color: #000;
-	color: white;
-	border: none;
-	cursor: pointer;
-}
-.pokemon__info {
-	background-color: #fff;
-	padding: 20px;
-	border-radius: 5px;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-	margin: 20px;
-}
-
-#pokemon__image {
-	display: none;
-}
-
-#pokemon__imageContainer {
-	display: flex;
-	justify-content: center;
-}
-
-h2 {
-	color: #000;
-}
-
-h3 {
-	color: #333;
-}
-
-ul {
-	list-style: none;
+* {
+	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
-li {
-	margin-bottom: 5px;
+.container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: linear-gradient(135deg, #153677, #4e085f);
+	padding: 10px
 }
