@@ -20,3 +20,95 @@ h1 {
 	background-color: linear-gradient(135deg, #153677, #4e085f);
 	padding: 10px
 }
+
+.todo-app {
+	width: 100%;
+	max-width: 540px;
+	background-color: #fff;
+	margin: 100px auto 20px;
+	padding: 40px 30px 70px;
+	border-radius: 20px;
+}
+
+.todo-app h2 {
+	color: #002765;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.todo-app h2 img {
+	width: 30px;
+	margin-left: 10px;
+}
+
+#todoForm {
+	display: flex;
+	justify-content: space-between;
+	background-color: #edeef0;
+	border-radius: 40px;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+
+#todoInputs {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+input {
+	border: none;
+	outline: none;
+	background: transparent;
+	padding: 10px;
+	font-weight: 16px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 16px 65px;
+	background: #ff5945;
+	cursor: pointer;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 40px;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.todo-item {
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	
+	width: 640px;
+}
+
+.checkbox {
+	margin-right: 10px;
+}
+
+.remove-button {
+	background-color: #ff0000;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-size: 14px;
+}

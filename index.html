@@ -5,15 +5,30 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>To Do</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 	<div class="container">
-	
-	</div>
-	
-	<script src="index.js"></script>
+		<div class="todo-app">
+			<h2>To-Do <img src="./img/icon.png" alt="icon"></h2>
+			<form id="todoForm">
+				<div id="todoInputs">
+					<input type="text" id="todoInput" placeholder="Add your todo task" required>
+					<input type="date" id="deadLineDate">
+				</div>
+				<button type="submit">Add</button>
+
+
+			</form>
+
+
+
+
+		</div>
+		<ul id="todoList"></ul>
+
+		<script src="./index.js"></script>
 </body>
 
 
