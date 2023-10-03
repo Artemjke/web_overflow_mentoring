@@ -50,10 +50,18 @@ document.addEventListener("DOMContentLoaded", function () {
 			todoItem.appendChild(toDateElement);
 			todoItem.appendChild(removeButton);
 
-			///checkbox needed
-		}
+			checkbox.addEventListener("change", function () {
+				if (checkbox.checked) {
+					todoText.style.textDecoration = "line-through";
+					toDateElement.style.textDecoration = "line-through";
+				} else {
+					todoText.style.textDecoration = "none";
+					toDateElement.style.textDecoration = "none";
+				}
+			});
+		}   
 
-
+   
 	});
 
 });
