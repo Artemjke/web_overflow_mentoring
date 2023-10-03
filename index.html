@@ -4,29 +4,34 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Піка-піка</title>
-	<link rel="stylesheet" href="style.css">
+	<title>To Do</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-	<h1>Pokémon</h1>
-	<div class="input__container">
-		<label for="pokemon__number">Введи номер покемону:</label>
-		<input type="number" id="pokemon__number" placeholder="Enter a number">
-		<button id="download__button">Завантажити</button>
-	</div>
-	<div class="pokemon__info">
-		<h2>Інформація про покемона:</h2>
-		<div id="pokemon__imageContainer">
-			<img id="pokemon__image" alt="Pokemon Image">
+	<div class="container">
+		<div class="todo-app">
+			<h2>To-Do <img src="./img/icon.png" alt="icon"></h2>
+			<form id="todoForm">
+				<div id="todoInputs">
+					<input type="text" id="todoInput" placeholder="Add your todo task" required>
+					<input type="date" id="deadLineDate">
+				</div>
+				<button type="submit">Add</button>
+
+
+			</form>
+
+
+
+
 		</div>
-		<div id="pokemon__name"></div>
-		<div id="pokemon__height"></div>
-		<div id="pokemon__size"></div>
-		<h3>Характеристики покемона:</h3>
-		<ul id="base__stats"></ul>
-	</div>
-	<script src="index.js"></script>
+		<ul id="todoList"></ul>
+
+		<script src="./index.js"></script>
 </body>
+
+
+
 
 </html>
